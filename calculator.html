@@ -10,14 +10,20 @@ function sin(){
  var num = document.getElementById("n1");
  num.value = Math.sin(num.value);
 }
+function fourth() {
+ var num = document.getElementById("n1");
+ num.value = Math.pow(num.value, 4);
+}
 </script>
 </head>
 <body>
- <h1>Calculadora de Santiago Munoz-Chapuli </h1>
+ <h1>Calculadora de Santiago Munoz-Chapuli Diaz Meco</h1>
  Number:
  <input type="text" id=n1>
  <p>
  <button onclick="cube()"> x^3 </button>
+ <button onclick="fourth()"> x^4 </button>
+ <button onclick="sin()"> sin(x) </button>
  </p>
 </body>
 </html>
